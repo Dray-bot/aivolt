@@ -1,0 +1,5 @@
+.bg-patternpad {
+  background-image: url('/assets/patterns/your-pattern.svg');
+  background-repeat: repeat;
+  background-size: cover;
+}

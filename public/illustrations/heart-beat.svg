@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <g id="heart">
+    <path d="M344.767,148.97c0-40.55-32.872-73.422-73.422-73.422-34.587,0-63.564,23.922-71.345,56.118-7.781-32.196-36.758-56.118-71.345-56.118-40.55,0-73.422,32.872-73.422,73.422,0,19.283,7.444,36.82,19.602,49.922l125.164,125.561,125.164-125.561c12.158-13.101,19.602-30.638,19.602-49.922Z" fill="none" stroke="#191919" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  </g>
+  <g id="pulse">
+    <polyline points="50 213.25 132.274 213.25 158.195 160.136 184.231 250.742 207.259 211.167 350 211.167" fill="none" stroke="#4f46e5" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  </g>
+</svg>
