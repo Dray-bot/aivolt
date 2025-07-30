@@ -20,7 +20,7 @@ const testimonials = [
   {
     name: 'Sarah Johnson',
     company: 'FinX Analytics',
-    feedback: 'Their AI integration was seamless. We’re now able to analyze financial trends with pinpoint accuracy.',
+    feedback: 'Their AI integration was seamless. We&apos;re now able to analyze financial trends with pinpoint accuracy.',
   },
 ]
 
@@ -68,7 +68,7 @@ export default function Testimonials() {
                   <p className="font-semibold text-gray-800">{testimonial.name}</p>
                   <p className="text-sm text-gray-500">{testimonial.company}</p>
                 </div>
-                <p className="text-gray-600 text-sm mt-2 italic">"{testimonial.feedback}"</p>
+                <p className="text-gray-600 text-sm mt-2 italic">&quot;{testimonial.feedback}&quot;</p>
               </motion.div>
             </SwiperSlide>
           ))}

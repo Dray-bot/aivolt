@@ -8,19 +8,19 @@ const caseStudies = [
     title: 'AI Automation for Logistics Company',
     description: 'Streamlined supply chain processes, reduced operational costs by 35%, and increased delivery efficiency using AI-driven automation workflows.',
     image: '/illustrations/delivery.svg',
-    industry: 'Logistics & Supply Chain',
+    industry: 'Logistics &amp; Supply Chain',
   },
   {
     title: 'AI Chatbot for Fintech Support',
     description: 'Developed an intelligent chatbot that handled 70% of customer queries, reducing support tickets and improving customer satisfaction scores.',
     image: '/illustrations/chatbot.svg',
-    industry: 'Fintech & Customer Support',
+    industry: 'Fintech &amp; Customer Support',
   },
   {
     title: 'Data Analytics for Healthcare Insights',
     description: 'Implemented advanced data pipelines for a healthcare provider, leading to 25% faster diagnosis and predictive patient care.',
     image: '/illustrations/analytics.svg',
-    industry: 'Healthcare & Analytics',
+    industry: 'Healthcare &amp; Analytics',
   },
 ]
 
@@ -87,7 +87,7 @@ export default function CaseStudiesPage() {
         className="mt-20 sm:mt-24 bg-blue-600 rounded-xl text-white py-10 sm:py-12 px-6 sm:px-10 flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-6"
       >
         <div>
-          <h3 className="text-xl sm:text-2xl font-bold mb-2">Let's Write Your Success Story Next</h3>
+          <h3 className="text-xl sm:text-2xl font-bold mb-2">Let&apos;s Write Your Success Story Next</h3>
           <p className="text-white/80 text-sm sm:text-base">Talk to our team and discover how AI can elevate your business operations.</p>
         </div>
         <a

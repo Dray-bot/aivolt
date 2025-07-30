@@ -10,7 +10,7 @@ const solutions = [
     icon: <Code2 size={32} className="text-blue-600 shrink-0" />,
   },
   {
-    title: 'AI Integration & Consulting',
+    title: 'AI Integration &amp; Consulting',
     description: 'Embedding intelligent AI-driven workflows into your operations to maximize efficiency and innovation.',
     icon: <BrainCircuit size={32} className="text-blue-600 shrink-0" />,
   },
@@ -105,7 +105,7 @@ export default function SolutionsPage() {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto"
         >
-          We don't just build software — we build <span className="font-semibold">future-proof AI ecosystems</span> that scale with your business.
+          We don&apos;t just build software — we build <span className="font-semibold">future-proof AI ecosystems</span> that scale with your business.
           With a focus on automation, data-driven strategies, and secure infrastructures, AIVOLT becomes your partner in digital transformation.
         </motion.p>
       </section>
@@ -120,7 +120,7 @@ export default function SolutionsPage() {
       >
         <div>
           <h3 className="text-xl sm:text-2xl font-bold mb-2">Ready to Transform Your Business?</h3>
-          <p className="text-white/80 text-sm sm:text-base">Let's build AI-powered solutions that give you a competitive edge.</p>
+          <p className="text-white/80 text-sm sm:text-base">Let&apos;s build AI-powered solutions that give you a competitive edge.</p>
         </div>
         <a
           href="/contact"

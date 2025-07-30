@@ -5,27 +5,27 @@ import { Building2, Banknote, Stethoscope, Truck, Globe2 } from 'lucide-react'
 
 const industries = [
   {
-    name: 'Finance & Fintech',
+    name: 'Finance &amp; Fintech',
     description: 'Empowering financial services with AI-driven automation, fraud detection, and personalized customer experiences.',
     icon: <Banknote size={32} className="text-blue-600" />,
   },
   {
-    name: 'Healthcare & Medical',
+    name: 'Healthcare &amp; Medical',
     description: 'Optimizing patient care with predictive analytics, AI diagnostics, and automated healthcare workflows.',
     icon: <Stethoscope size={32} className="text-blue-600" />,
   },
   {
-    name: 'Logistics & Supply Chain',
+    name: 'Logistics &amp; Supply Chain',
     description: 'Streamlining logistics operations with AI-powered route optimization and inventory management.',
     icon: <Truck size={32} className="text-blue-600" />,
   },
   {
-    name: 'Real Estate & Property',
+    name: 'Real Estate &amp; Property',
     description: 'Enhancing property listings, client interactions, and automated valuations through intelligent systems.',
     icon: <Building2 size={32} className="text-blue-600" />,
   },
   {
-    name: 'E-commerce & Retail',
+    name: 'E-commerce &amp; Retail',
     description: 'Boosting sales and customer retention with AI recommendations, demand forecasting, and process automation.',
     icon: <Globe2 size={32} className="text-blue-600" />,
   },
@@ -46,7 +46,7 @@ export default function IndustriesPage() {
           Industries We Transform
         </h1>
         <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
-          AIVOLT's AI solutions are crafted to address specific challenges across industries. Here's where we make the biggest impact.
+          AIVOLT&apos;s AI solutions are crafted to address specific challenges across industries. Here&apos;s where we make the biggest impact.
         </p>
       </motion.div>
 
@@ -82,7 +82,7 @@ export default function IndustriesPage() {
       >
         <div>
           <h3 className="text-xl sm:text-2xl font-bold mb-2">Not Sure Where to Start?</h3>
-          <p className="text-white/80 text-sm sm:text-base">Let's discuss how AIVOLT can elevate your industry with tailored AI solutions.</p>
+          <p className="text-white/80 text-sm sm:text-base">Let&apos;s discuss how AIVOLT can elevate your industry with tailored AI solutions.</p>
         </div>
         <a
           href="/contact"
