@@ -17,7 +17,7 @@ const caseStudies = [
   },
   {
     title: 'Real Estate AI Insights',
-    description: 'Created an AI dashboard for property market predictions & customer behavior analysis.',
+    description: 'Created an AI dashboard for property market predictions &amp; customer behavior analysis.',
     image: '/illustrations/realestate.svg',
   },
 ]
@@ -33,7 +33,7 @@ export default function CaseStudies() {
           viewport={{ once: true }}
           className="text-3xl sm:text-4xl font-bold text-gray-900"
         >
-          Success Stories & Case Studies
+          Success Stories &amp; Case Studies
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -42,7 +42,7 @@ export default function CaseStudies() {
           viewport={{ once: true }}
           className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto"
         >
-          See how we've helped businesses across industries leverage AI for real impact.
+          See how we&apos;ve helped businesses across industries leverage AI for real impact.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
