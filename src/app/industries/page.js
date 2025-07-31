@@ -85,7 +85,7 @@ export default function IndustriesPage() {
           <p className="text-white/80 text-sm sm:text-base">Let&apos;s discuss how AIVOLT can elevate your industry with tailored AI solutions.</p>
         </div>
         <a
-          href="/contact"
+          href="/industries"
           className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-gray-100 transition text-sm sm:text-base"
         >
           Get a Free Consultation

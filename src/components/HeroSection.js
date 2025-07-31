@@ -46,7 +46,7 @@ export default function Hero() {
         >
           <UiVerseButton href="/solutions">Discover Solutions</UiVerseButton>
           <Link
-            href="/contact"
+            href="/"
             className="inline-flex items-center text-blue-600 text-lg hover:underline"
           >
             Talk to an Expert

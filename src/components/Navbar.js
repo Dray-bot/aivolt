@@ -38,7 +38,7 @@ export default function Navbar() {
             ))}
           </nav>
 
-          <div className="hidden md:flex">
+          <div className="hidden md:flex space-x-4">
             <motion.button
               whileHover={{ scale: 1.05, boxShadow: '0px 0px 12px rgba(59, 130, 246, 0.5)' }}
               whileTap={{ scale: 0.98 }}
@@ -47,6 +47,16 @@ export default function Navbar() {
             >
               Get a Quote
             </motion.button>
+
+            <Link href="/sign-up" className="inline-block">
+              <motion.button
+                whileHover={{ scale: 1.05, boxShadow: '0px 0px 12px rgba(59, 130, 246, 0.5)' }}
+                whileTap={{ scale: 0.98 }}
+                className="bg-transparent border border-blue-600 text-blue-600 px-6 py-2 rounded-lg shadow-md hover:bg-blue-600 hover:text-white transition"
+              >
+                Sign Up
+              </motion.button>
+            </Link>
           </div>
 
           {/* Mobile Menu Toggle */}
@@ -93,14 +103,25 @@ export default function Navbar() {
                     {link.name}
                   </Link>
                 ))}
+
                 <motion.button
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
-                  onClick={() => { setIsModalOpen(true); setIsOpen(false) }}
+                  onClick={() => { setIsModalOpen(true); setIsOpen(false); }}
                   className="bg-blue-600 text-white text-center px-6 py-3 rounded-lg shadow-md text-lg hover:bg-blue-700 transition"
                 >
                   Get a Quote
                 </motion.button>
+
+                <Link href="/sign-up" onClick={() => setIsOpen(false)}>
+                  <motion.button
+                    whileHover={{ scale: 1.03 }}
+                    whileTap={{ scale: 0.97 }}
+                    className="border border-blue-600 text-blue-600 text-center px-6 py-3 rounded-lg shadow-md text-lg hover:bg-blue-600 hover:text-white transition"
+                  >
+                    Sign Up
+                  </motion.button>
+                </Link>
               </nav>
             </motion.div>
           )}
